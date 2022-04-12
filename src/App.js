@@ -1,12 +1,14 @@
 
 import './App.css';
+import ClassCounterOne from './Components/ClassCounterOne';
 import CounterUsingUseEffectHook from './Components/CounterUsingUseEffectHook';
 
 
 function App() {
   return (
     <div >
-      <CounterUsingUseEffectHook/>
+      <ClassCounterOne/>
+      {/* <CounterUsingUseEffectHook/> */}
     
     </div>
   );
